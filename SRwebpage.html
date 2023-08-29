@@ -39,7 +39,7 @@
 <script>
     const session = new onnx.InferenceSession();
     async function init() {
-        await session.loadModel("./FioShapes.onnx");
+        await session.loadModel("./ShapesModel.onnx");
     }
     init();
     async function run() {
